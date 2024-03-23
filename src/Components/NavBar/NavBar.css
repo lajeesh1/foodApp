@@ -1,0 +1,43 @@
+.navbar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    width: 150px;
+    height: 70px;
+}
+
+.navmenu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    color: grey;
+    font-size: 18px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar button {
+    background-color: transparent;
+    font-size: 16px;
+    color: gray;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+.navbar button:hover {
+    background-color: rgb(252, 237, 232);
+
+
+}
