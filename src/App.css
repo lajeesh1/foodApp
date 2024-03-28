@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+
 }
 
 .logo {
@@ -45,10 +46,7 @@
   color: #888;
 }
 
-.app {
-  width: 90%;
-  margin: auto;
-}
+
 
 
 /* 
