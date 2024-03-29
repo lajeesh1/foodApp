@@ -1,4 +1,4 @@
-import React from "react";
+import { React } from "react";
 import "./ExploreMenu.css";
 import { menu_list } from "../../assets/assets";
 const ExploreMenu = () => {
@@ -19,6 +19,7 @@ const ExploreMenu = () => {
           </div>
         ))}
       </div>
+      <hr />
     </div>
   );
 };
