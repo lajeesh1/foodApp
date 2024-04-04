@@ -42,9 +42,15 @@
   font-size: maz(1.4vw, 16px);
   cursor: pointer;
 }
+
 .explore-menu hr {
   margin: 10px 0px;
   height: 1px;
   background-color: #e2e2e2;
   border: none;
+}
+
+.explore-menu-list-item .active {
+  border: 5px, solid tomato;
+  padding: 5px;
 }
